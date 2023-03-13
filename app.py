@@ -73,7 +73,7 @@ def description_card():
         id="description-card",
         children=[
             html.H5("Clinical Analytics"),
-            html.H3("Welcome to the Clinical Analytics Dashboard"),
+            html.H3("Not Welcome to the Clinical Analytics Dashboard"),
             html.Div(
                 id="intro",
                 children="Explore clinic patient volume by time of day, waiting time, and care score. Click on the heatmap to visualize patient experience at different time points.",
