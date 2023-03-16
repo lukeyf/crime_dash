@@ -215,7 +215,7 @@ def update_figure(state):
     ],
 )
 def update_scatter(state, column, column_2):
-    global FACTOR
+    global FACTOR_1, FACTOR_2
     filtered_df = df
     if state != 'All' and state is not None:
         filtered_df = df[
