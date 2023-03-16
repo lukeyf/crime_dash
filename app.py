@@ -193,7 +193,11 @@ def update_figure(state):
                             hover_name="area",
                             size='violent_crime_rate',
                             color='violent_crime_rate',
-                            zoom=zoom, height=370)
+                            zoom=zoom, 
+                            height=370,
+                            labels = {
+                                'violent_crime_rate':column_list['violent_crime_rate']
+                            })
 
     # Update the layout of the figure
     fig.update_layout(mapbox_style="open-street-map",
@@ -252,7 +256,10 @@ def update_scatter(state, column, column_2):
 def update_choropleth(state):
     filtered_df = df.groupby('state_abbrev').agg('mean').reset_index()
     fig = px.choropleth(locations=filtered_df['state_abbrev'], locationmode="USA-states",
-                        color=filtered_df['violent_crime_rate'], scope="usa", height=350)
+                        color=filtered_df['violent_crime_rate'], scope="usa", height=350,
+                        labels = {
+                                'color':column_list['violent_crime_rate']
+                            })
     fig.update_layout(mapbox_style="open-street-map",
                       margin={"r": 0, "t": 0, "l": 0, "b": 0})
     return fig
