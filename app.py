@@ -197,7 +197,7 @@ def update_figure(state):
                             height=370,
                             labels = {
                                 'violent_crime_rate':column_list['violent_crime_rate']
-                            })
+                            },)
 
     # Update the layout of the figure
     fig.update_layout(mapbox_style="open-street-map",
@@ -259,7 +259,8 @@ def update_choropleth(state):
                         color=filtered_df['violent_crime_rate'], scope="usa", height=350,
                         labels = {
                                 'color':column_list['violent_crime_rate']
-                            })
+                            },
+                            color_continuous_scale='viridis')
     fig.update_layout(mapbox_style="open-street-map",
                       margin={"r": 0, "t": 0, "l": 0, "b": 0})
     return fig
