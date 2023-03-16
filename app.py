@@ -1,7 +1,6 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_leaflet as dl
 from dash.dependencies import Input, Output, ClientsideFunction
 import plotly.express as px
 import numpy as np
