@@ -53,7 +53,4 @@ After these steps, your PR will be merged! On behalf of the members of this repo
 
 ## Contributing Members (authors)
 
--   Sarah Abdelazim
--   Daniel Merigo
 -   Luke Yang
--   Chenyang Wang
