@@ -82,3 +82,7 @@ Please note that this project is released with a [Code of Conduct](CODE_OF_CONDU
 This dashboard was created by Luke Yang.
 
 It is licensed under the terms of the MIT license.
+
+### Reference
+
+The data set can be found [here](https://archive.ics.uci.edu/ml/datasets/communities+and+crime). For more information on US crime rates, you can visit the [FBI Crime Report](https://ucr.fbi.gov/crime-in-the-u.s).
