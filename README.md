@@ -14,7 +14,7 @@ The following steps illustrate how the user could interact with the dashboard us
 
 - Entering the main page of the dashboard, you can see one interactive map showing all communities and their associated crime rate. At the bottom right you can see a scatter plot showing the correlation between two selected factors.
 
-![Two Plots](media/two_plots.mp4)
+![](media/two_plots.mp4)
 
 - The left-hand filter controls which state the user wants to specifically look into. Here we can type California to display communities that are only in this state.
 
