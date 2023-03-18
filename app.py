@@ -67,7 +67,7 @@ def description_card():
             html.H3("Welcome to the Crime Rate Analytics Dashboard"),
             html.Div(
                 id="intro",
-                children="This is a dashboard for visualization of crime rate from a dataset collected in the 1990s. You can view the crime rate by zooming in on the US map, selecting desired state and community, and examine the correlation between factors and crime rates.",
+                children="This is a dashboard for visualization of crime rate from a dataset collected in the 1990s. You can view the crime rate by zooming in on the US map, selecting desired state and community, and examine the correlation between factors and crime rates. Note the data were scaled from 0 to 1, so all units are arbitrary.",
             ),
         ],
     )
