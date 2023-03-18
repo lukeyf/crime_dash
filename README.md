@@ -1,5 +1,5 @@
 # Vancouver Crime Dashboard
-Link to the dashboard: [Vancouver Crime Dashboard](https://crime-dash.onrender.com)
+Link to the dashboard: [Crime Dashboard](https://crime-dash.onrender.com)
 
 ## Motivation
 The crime rate in a community is an important factor that citizens consider when making decisions about whether to live or invest. A high crime rate in a city may impact personal safety, property values, and overall quality of life and is influenced by many factors. Understanding where, how and why crime happens is important for fighting and lowering crime rates, hence increasing safety in communities. Since 1930, the FBI has been collecting data on the types, amounts, and impact of crime in the United States through the Uniform Crime Reporting Program. So, our dashboard will aim to figure out the socioeconomic conditions, socio-demographic and community factors influencing crime rates in different US states as well as provide access to crime data in an understandable and intuitive manner.
