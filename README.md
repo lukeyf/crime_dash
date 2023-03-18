@@ -33,36 +33,48 @@ The following steps illustrate how the user could interact with the dashboard us
 ![Choro](media/choro.mov)
 
 
-### Installation
 
-You can download this file, create a conda environment and activate it as follows.
-```
-conda env create -f environment.yaml
-conda activate van-crime
-```
-You can view the source code in `src/app.py`.
 
-### Run locally
 
-Make sure you are in the root directory of the repository. Then, run the following command in Terminal:
+## How to run this app
+
+### Requirements
+
+* Python 3.10+
+
+We suggest you to create a virtual environment for running this app with Python 3.10. Clone this repository 
+and open your terminal/command prompt in the root folder.
+
 ```
-python src/app.py
+git clone https://github.com/lukeyf/crime_dash.git
+cd crime_dash
+python3 -m virtualenv venv
 ```
-You will be given an URL to use the dashboard.
+
+Install all required packages by running:
+```
+pip install -r requirements.txt
+```
+
+Run this app locally with:
+```
+python app.py
+```
+
 
 
 ### Contributing
 
-Contributors: Cici Du, Melisa Maidana, Paniz Fazlali, Shi Yan Wang (DSCI 532 - Group 16).
+Contributor: Luke Yang
 
 Interested in contributing? Check out the contributing guidelines.
 
 We would love to know what other datasets we can bring into our dashboard to make it more useful. Please also feel free to offer suggestions on other interactive options you'd like to see.
 
-Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT). By contributing to this project, you agree to abide by its terms.
 
 ### License
 
-This dashboard was created by Cici Du, Melisa Maidana, Paniz Fazlali, Shi Yan Wang (DSCI 532 - Group 16).
+This dashboard was created by Luke Yang.
 
 It is licensed under the terms of the MIT license.
