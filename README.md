@@ -22,7 +22,7 @@ The following steps illustrate how the user could interact with the dashboard us
 
 - Using the interactive map, the user can further scroll and zoom in to inspect the cities if the data is concentrated.
 
-![Zoom](media/zoom_in.mp4)
+![Zoom](media/zoom_in.gif)
 
 - The filters on the bottom left are controlling what two factors to compare in the scatter plot. By default, we want to investigate the factors correlated to crime rate. We can try different factors on the x-axis to compare.
 
@@ -65,7 +65,11 @@ python app.py
 
 ### Contributing
 
-Contributor: Luke Yang
+Contributor:
+
+ <a href="https://github.com/UBC-MDS/chembox/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lukeyf/crime_dash&max=1000" />
+</a>
 
 Interested in contributing? Check out the contributing guidelines.
 
