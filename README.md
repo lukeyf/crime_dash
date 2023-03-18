@@ -4,6 +4,8 @@ Link to the dashboard: [Vancouver Crime Dashboard](https://crime-dash.onrender.c
 ## Motivation
 The crime rate in a community is an important factor that citizens consider when making decisions about whether to live or invest. A high crime rate in a city may impact personal safety, property values, and overall quality of life and is influenced by many factors. Understanding where, how and why crime happens is important for fighting and lowering crime rates, hence increasing safety in communities. Since 1930, the FBI has been collecting data on the types, amounts, and impact of crime in the United States through the Uniform Crime Reporting Program. So, our dashboard will aim to figure out the socioeconomic conditions, socio-demographic and community factors influencing crime rates in different US states as well as provide access to crime data in an understandable and intuitive manner.
 
+A proposal with a persona can be found [here](reports/proposal.md), describing example usage scenarios and functionality.
+
 ## Description of the Dashboard
 
 This interactive visualization and exploration tool will contain an interactive map as a landing page that will show the violent crimes committed in the Continental United States of America by State and County.
@@ -14,9 +16,22 @@ The following steps illustrate how the user could interact with the dashboard us
 
 ![Two Plots](media/two_plots.mov)
 
--   'Download Data' aims to give the user the capability of downloading a table with the data as sliced using the filters available On the left there will be a filter menu to slice the data and show specific insights. On the second tab (which will maintain the filters made on the left-hand panel) it will include a bar chart denoting the communities' composition and another bar chart denoting police composition. Below it will include a line chart showing the crime statistics in a time series (for 1995).
+- The left-hand filter controls which state the user wants to specifically look into. Here we can type California to display communities that are only in this state.
 
-In the left-hand filter menu the user will have the liberty of choosing: State, county, time interval (within 1995), community type (based on income and racial composition), police presence (amount of police officers) and police budget allocated. It will also include cards stating "Percentage of Violent Crimes", 'Overall Country Crime Percentage' and 'Police Presence'
+![Cali](media/select_cali.mov)
+
+- Using the interactive map, the user can further scroll and zoom in to inspect the cities if the data is concentrated.
+
+![Zoom](media/zoom_in.mov)
+
+- The filters on the bottom left are controlling what two factors to compare in the scatter plot. By default, we want to investigate the factors correlated to crime rate. We can try different factors on the x-axis to compare.
+
+![Scatter](media/scatter.mov)
+
+- We also have a choropleth on the top left illustrating a summarized state crime rate by taking the averages of the communities. We can hover over different states to see the summarized result.
+
+![Choro](media/choro.mov)
+
 
 ### Installation
 
